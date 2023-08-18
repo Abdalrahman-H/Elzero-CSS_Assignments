@@ -1,0 +1,40 @@
+.assign-4-shape-1{
+    height: 400px;
+    width :400px;
+    background-color: burlywood;
+    background-image: url(css-assignment-5-8.png);
+    background-position: 80% 80%; 
+    background-repeat: no-repeat;
+    background-position: left top;
+
+}
+.assign-4-shape-2{
+    height: 400px;
+    width :400px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: repeat-y;
+    background-color: burlywood;
+    background-position: right;
+
+
+}   
+.assign-4-shape-3{
+    height: 400px;
+    width :400px;
+    background-image: url(css-assignment-5-8.png);
+    background-position: 80% 80%;
+    background-repeat: repeat-x;
+    background-color: burlywood;
+background-position: center bottom;
+}
+
+.assign-4-shape-4{
+    height: 400px;
+    width :400px;
+    background-image: url(css-assignment-5-8.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: burlywood;
+    background-position: right bottom;
+
+}
