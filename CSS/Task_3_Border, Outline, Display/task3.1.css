@@ -1,0 +1,25 @@
+.step_1{
+    background-color: rgb(241, 238, 238);
+    border :5px solid red;
+    outline: 5px solid black;
+    display: inline-block;
+
+
+}
+.step_2{
+    background-color: rgb(241, 238, 238);
+    border-color: blue green ;
+    border-width: 5px;
+    border-style: solid;
+    outline: 5px solid black;
+    display: inline-block;
+}
+.step_3{
+    background-color: rgb(241, 238, 238);
+    border-color: red green blue yellow;
+    border-style: dashed;
+    border-width: 5px;
+    outline: 5px solid black;
+    display: inline-block;
+
+}

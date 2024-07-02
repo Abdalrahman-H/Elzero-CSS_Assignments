@@ -1,0 +1,29 @@
+.step_1{
+    background-color: rgb(202, 199, 200);
+    width: 400px;
+    border-left: 4px solid darkorchid;
+    outline: 2px solid rgb(202, 199, 200);
+    margin: 3px;
+    padding: 5px;
+
+
+}
+.step_2{
+    background-color: rgb(202, 199, 200);
+    width: 400px;
+    outline: 2px solid rgb(202, 199, 200);
+    padding: 5px;
+    margin: 3px;
+    visibility: hidden;
+
+}
+.step_3{
+    background-color: rgb(202, 199, 200);
+    width: 400px;
+    outline: 2px solid rgb(202, 199, 200);
+    padding: 5px;
+    margin: 3px;
+    border-left: 4px solid teal;
+
+
+}
