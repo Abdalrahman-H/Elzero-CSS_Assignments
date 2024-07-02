@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    line-height: 1.6;
+    width: 400px;
+    text-align: center;
+    border: 3px solid;
+    border-color: red cyan;
+    position: relative;
+    padding: 10px;
+    background-color: #eee;
+    margin: 120px;
+}
+.bottom-left,
+.bottom-right,
+.top-left,
+.top-right
+{
+    background-color: deepskyblue;
+    color: white;
+    border: 2px solid deepskyblue ;
+
+}
+.top-left{
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    border-right-color: red ;
+    border-bottom-color: cyan ;
+}
+.bottom-left{
+    position: absolute;
+    bottom: -10px;
+    left: -6px;
+    border-right-color: red ;
+    border-top-color: cyan ;
+}
+.top-right{
+    position: absolute;
+    right: -6px;
+    top: -10px;
+    border-left-color: red ;
+    border-bottom-color: cyan ;
+}
+.bottom-right{
+    position: absolute;
+    bottom: -10px;
+    right: -6px;
+    border-left-color: red ;
+    border-top-color: cyan ;
+}
+

@@ -1,0 +1,54 @@
+
+div{
+    margin: 20px auto;
+    font-size: 30px;
+    background-color: #D4d4d4;
+    padding: 30px 20px;
+    width: 700px;
+    position: relative;
+}
+div::first-letter{
+    background-color: red;
+    color: white;
+    block-size: 20px;
+    padding: 20px 15px;
+    margin-left: -40px;
+    font-weight: bold;
+}
+/* ----------------3--------------- */
+p.user{
+    width: 700px;
+    background-color: #EEE;
+    height: 30px;
+    padding: 30px;
+    margin: 30px auto;
+    font-size: 30px;
+    border-left: 10px solid #E91E63;
+    position: relative;  
+}
+p.user::after{
+    width: 0px;
+    height: 0px;
+    content: "";
+    border-width: 20px;
+    border-style: solid;
+    margin-top: -20px;
+    border-color: transparent #E91E63 transparent transparent;
+    position: absolute;
+    top: 50%;
+    left: -50px;   
+}
+
+p.user::before{
+    content: attr(data-person);
+    background-color: #EEE;
+    position: absolute;
+    padding: 20px;
+    width: 70px;
+    margin-top: 10px;
+    height: auto;
+    text-align: center;
+    top: 0;
+    left: -150px;
+}
+

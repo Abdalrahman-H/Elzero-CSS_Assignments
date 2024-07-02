@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 700px;
+    margin:  auto;
+    border: 3px solid white;
+    border-bottom-color: darkcyan;
+}
+caption{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+tr.head{
+    background-color: #444;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+tbody{
+    background-color: #eee;
+    text-align: center;
+}
+.span1{
+    background-color:#03A9F4;
+}
+.span2{
+    background-color: #E91E63;
+}
+.span1,
+.span2{
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}

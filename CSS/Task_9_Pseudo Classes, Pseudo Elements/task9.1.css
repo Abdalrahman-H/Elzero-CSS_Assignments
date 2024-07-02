@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+div {
+    width: 300px;
+    height: 60px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 50px;
+}
+.one {
+    background-color: #EEE;
+    font-size: 50px;
+}
+.nothing{
+    background-color: red;
+}
+.three{
+    background-color: #EEE;
+}
