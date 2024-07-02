@@ -1,0 +1,71 @@
+/*--------------------------1----------------------*/
+.el{
+    text-transform: capitalize;
+    word-spacing: 3px;
+    text-shadow:3px 3px 0px red,
+                5px 5px 0px blue,
+                6px 6px 0px purple;
+    font-size: 110px;
+    text-align: center;
+}
+/*--------------------------2----------------------*/
+.one{
+   text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+
+}
+.three{
+    text-transform: lowercase;
+
+}
+.one,
+.two,
+.three{
+    font-size: 40px;
+    text-align: center;
+
+}
+/*--------------------------3----------------------*/
+.ASD{
+    width: 400px;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 24px;
+}
+.asd{
+    width: 400px;
+    background-color: #eee;
+    padding: 10px;
+    white-space:nowrap;
+    overflow: hidden;
+    font-size: 25px;
+
+}
+.dsa{
+    width: 400px;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+/*--------------------------4----------------------*/
+a{
+ 
+    display: inline-block;
+    background-color: #009688;
+    padding: 30px 70px;
+    border-bottom: 20px solid #00514a;
+    color: white ;
+    font-size: 80px ;
+    text-decoration: none;
+    text-transform: capitalize;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+
+}
