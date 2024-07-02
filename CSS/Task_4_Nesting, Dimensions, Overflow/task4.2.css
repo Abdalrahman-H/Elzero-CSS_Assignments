@@ -1,0 +1,28 @@
+.Title_one{
+    color: white;
+    background-color: red;
+    width:fit-content
+
+}
+.Title_two{
+    color: white;
+    background-color: red;
+    width:fit-content
+
+}
+.Title_three{
+    
+    color: white;
+    background-color: red;
+    width:fit-content
+
+} 
+
+.Title_four{
+    color: whitesmoke;
+    background-color: red;
+    min-width: 400px;
+    height: 150px;
+    overflow-y: auto;
+
+}
